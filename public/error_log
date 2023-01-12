@@ -1,0 +1,67 @@
+[06-Dec-2022 11:28:31 UTC] PHP Fatal error:  Cannot declare class App\Nova\Image because the name is already in use in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Nova/Image.php on line 13
+[06-Dec-2022 11:29:35 UTC] PHP Fatal error:  Cannot declare class App\Nova\Images, because the name is already in use in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Nova/Image.php on line 13
+[06-Dec-2022 11:29:44 UTC] PHP Fatal error:  Cannot declare class App\Nova\Images, because the name is already in use in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Nova/Image.php on line 13
+[06-Dec-2022 11:29:45 UTC] PHP Fatal error:  Cannot declare class App\Nova\Images, because the name is already in use in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Nova/Image.php on line 13
+[06-Dec-2022 11:30:37 UTC] PHP Fatal error:  Cannot declare class App\Nova\Images, because the name is already in use in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Nova/Image.php on line 13
+[06-Dec-2022 11:30:48 UTC] PHP Fatal error:  Cannot declare class App\Nova\Images, because the name is already in use in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Nova/Image.php on line 13
+[06-Dec-2022 11:31:00 UTC] PHP Fatal error:  Cannot declare class App\Nova\Image, because the name is already in use in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Nova/Images.php on line 13
+[06-Dec-2022 11:31:11 UTC] PHP Fatal error:  Cannot declare class App\Nova\Images, because the name is already in use in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Nova/Image.php on line 9
+[12-Dec-2022 10:46:29 UTC] PHP Fatal error:  Cannot declare class App\Nova\Image because the name is already in use in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Nova/Image.php on line 10
+[12-Dec-2022 11:00:03 UTC] PHP Fatal error:  Cannot declare class App\Nova\Imager, because the name is already in use in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Nova/Image.php on line 10
+[12-Dec-2022 12:02:53 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\Comentreply" not found in /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Menu/MenuItem.php:102
+Stack trace:
+#0 /home/justcode2020/public_html/AllProjects/VatanBackend/app/Providers/NovaServiceProvider.php(54): Laravel\Nova\Menu\MenuItem::resource()
+#1 [internal function]: App\Providers\NovaServiceProvider->App\Providers\{closure}()
+#2 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Nova.php(1161): call_user_func()
+#3 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Nova.php(1016): Laravel\Nova\Nova::resolveMainMenu()
+#4 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Nova.php(930): Laravel\Nova\Nova::Laravel\Nova\{closure}()
+#5 [internal function]: Laravel\Nova\Nova::Laravel\Nova\{closure}()
+#6 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Collections/Arr.php(560): array_map()
+#7 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(719): Illuminate\Support\Arr::map()
+#8 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Nova.php(932): Illuminate\Support\Collection->map()
+#9 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Http/Middleware/HandleInertiaRequests.php(46): Laravel\Nova\Nova::jsonVariables()
+#10 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\Nova\Http\Middleware\HandleInertiaRequests->Laravel\Nova\Http\Middleware\{closure}()
+#11 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#12 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\Container\Util::unwrapIfClosure()
+#13 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\Container\BoundMethod::callBoundMethod()
+#14 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Container\BoundMethod::call()
+#15 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(338): Illuminate\Container\Container->call()
+#16 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/inertiajs/inertia-laravel/src/Response.php(125): Illuminate\Support\Facades\Facade::__callStatic()
+#17 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/inertiajs/inertia-laravel/src/Response.php(97): Inertia\Response->resolvePropertyInstances()
+#18 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Exceptions/NovaExceptionHandler.php(70): Inertia\Response->toResponse()
+#19 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Exceptions/NovaExceptionHandler.php(44): Laravel\Nova\Exceptions\NovaExceptionHandler->renderInertiaException()
+#20 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(222): Laravel\Nova\Exceptions\NovaExceptionHandler->render()
+#21 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(199): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#22 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(259): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#23 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#24 {main}
+  thrown in /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Menu/MenuItem.php on line 102
+[12-Dec-2022 12:02:59 UTC] PHP Fatal error:  Uncaught Error: Class "App\Providers\Comentreply" not found in /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Menu/MenuItem.php:102
+Stack trace:
+#0 /home/justcode2020/public_html/AllProjects/VatanBackend/app/Providers/NovaServiceProvider.php(54): Laravel\Nova\Menu\MenuItem::resource()
+#1 [internal function]: App\Providers\NovaServiceProvider->App\Providers\{closure}()
+#2 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Nova.php(1161): call_user_func()
+#3 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Nova.php(1016): Laravel\Nova\Nova::resolveMainMenu()
+#4 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Nova.php(930): Laravel\Nova\Nova::Laravel\Nova\{closure}()
+#5 [internal function]: Laravel\Nova\Nova::Laravel\Nova\{closure}()
+#6 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Collections/Arr.php(560): array_map()
+#7 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Collections/Collection.php(719): Illuminate\Support\Arr::map()
+#8 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Nova.php(932): Illuminate\Support\Collection->map()
+#9 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Http/Middleware/HandleInertiaRequests.php(46): Laravel\Nova\Nova::jsonVariables()
+#10 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\Nova\Http\Middleware\HandleInertiaRequests->Laravel\Nova\Http\Middleware\{closure}()
+#11 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Container/Util.php(41): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#12 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(81): Illuminate\Container\Util::unwrapIfClosure()
+#13 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\Container\BoundMethod::callBoundMethod()
+#14 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Container/Container.php(651): Illuminate\Container\BoundMethod::call()
+#15 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php(338): Illuminate\Container\Container->call()
+#16 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/inertiajs/inertia-laravel/src/Response.php(125): Illuminate\Support\Facades\Facade::__callStatic()
+#17 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/inertiajs/inertia-laravel/src/Response.php(97): Inertia\Response->resolvePropertyInstances()
+#18 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Exceptions/NovaExceptionHandler.php(70): Inertia\Response->toResponse()
+#19 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Exceptions/NovaExceptionHandler.php(44): Laravel\Nova\Exceptions\NovaExceptionHandler->renderInertiaException()
+#20 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(222): Laravel\Nova\Exceptions\NovaExceptionHandler->render()
+#21 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(199): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#22 /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(259): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#23 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#24 {main}
+  thrown in /home/justcode2020/public_html/AllProjects/VatanBackend/vendor/laravel/nova/src/Menu/MenuItem.php on line 102
+[13-Dec-2022 08:33:50 UTC] PHP Fatal error:  Declaration of App\Providers\NovaServiceProvider::boot(Illuminate\Http\Request $request) must be compatible with Laravel\Nova\NovaApplicationServiceProvider::boot() in /home/justcode2020/public_html/AllProjects/VatanBackend/app/Providers/NovaServiceProvider.php on line 31

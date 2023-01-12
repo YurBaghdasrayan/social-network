@@ -1,0 +1,2479 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Your super  ApplicationAPI",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "api/send-email": {
+            "post": {
+                "tags": [
+                    "Add Email"
+                ],
+                "summary": "User Send Email for add",
+                "description": "User Send Email for add",
+                "operationId": "User Send Email for add",
+                "requestBody": {
+                    "description": "User Send Email for add",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "email": {
+                                        "type": "email",
+                                        "format": "email",
+                                        "example": "test@gmail.com"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/add-email": {
+            "post": {
+                "tags": [
+                    "Add Email"
+                ],
+                "summary": "User Send code for add",
+                "description": "User Send code for add",
+                "operationId": "User Send code for add",
+                "requestBody": {
+                    "description": "User Send code for add",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "random_int": {
+                                        "type": "integer",
+                                        "format": "int",
+                                        "example": "123456"
+                                    },
+                                    "user_id": {
+                                        "type": "integer",
+                                        "format": "int",
+                                        "example": "8"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/send-number": {
+            "post": {
+                "tags": [
+                    "Add Number"
+                ],
+                "summary": "User Send Number for add",
+                "description": "User Send Number for add",
+                "operationId": "User Send Number for add",
+                "requestBody": {
+                    "description": "User Send Number for add",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "number": {
+                                        "type": "integer",
+                                        "format": "number",
+                                        "example": "1234567"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/add-number": {
+            "post": {
+                "tags": [
+                    "Add Number"
+                ],
+                "summary": "User Send code for add",
+                "description": "User Send code for add",
+                "operationId": "User Send Code for add",
+                "requestBody": {
+                    "description": "User Send code for add",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "random_int": {
+                                        "type": "integer",
+                                        "format": "int",
+                                        "example": "1234567"
+                                    },
+                                    "user_id": {
+                                        "type": "integer",
+                                        "format": "int",
+                                        "example": "8"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/change-email": {
+            "post": {
+                "tags": [
+                    "Change Email"
+                ],
+                "summary": "User Send Email for change",
+                "description": "User Send Email for change",
+                "operationId": "User Send Email for change",
+                "requestBody": {
+                    "description": "User Send Email for change",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "email": {
+                                        "type": "email",
+                                        "format": "email",
+                                        "example": "test@gmail.com"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/update-email": {
+            "post": {
+                "tags": [
+                    "Change Email"
+                ],
+                "summary": "User Send code for change",
+                "description": "User Send code for change",
+                "operationId": "User Send code for change",
+                "requestBody": {
+                    "description": "User Send code for change",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "random_int": {
+                                        "type": "integer",
+                                        "format": "int",
+                                        "example": "123456"
+                                    },
+                                    "user_id": {
+                                        "type": "integer",
+                                        "format": "int",
+                                        "example": "8"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/change-password": {
+            "post": {
+                "tags": [
+                    "Change Password"
+                ],
+                "summary": "User Send Password for change",
+                "description": "User Send Password for change",
+                "operationId": "User Send Password for change",
+                "requestBody": {
+                    "description": "User Send Password for change",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "newpassword": {
+                                        "type": "password",
+                                        "format": "password",
+                                        "example": "1111111"
+                                    },
+                                    "oldpassword": {
+                                        "type": "password",
+                                        "format": "password",
+                                        "example": "1111111"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/change-username": {
+            "post": {
+                "tags": [
+                    "Change Username"
+                ],
+                "summary": "User Send Username for change",
+                "description": "User Send Username for change",
+                "operationId": "User Send Username for change",
+                "requestBody": {
+                    "description": "User Send Username for change",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "username": {
+                                        "type": "text",
+                                        "format": "text",
+                                        "example": "example"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/chat": {
+            "post": {
+                "tags": [
+                    "Chat"
+                ],
+                "summary": "User Send message",
+                "description": "User send message",
+                "operationId": "Users send message",
+                "requestBody": {
+                    "description": "User send message",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "receiver_id": {
+                                        "type": "integer",
+                                        "format": "int",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/rightsidechat": {
+            "get": {
+                "tags": [
+                    "Chat"
+                ],
+                "summary": "those users with whom you communicated",
+                "description": "those users with whom you communicated",
+                "operationId": "those userss with whom you communicated",
+                "requestBody": {
+                    "description": "those users with whom you communicated",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/chat{id}": {
+            "get": {
+                "tags": [
+                    "Chat"
+                ],
+                "summary": "user correspondence",
+                "description": "user correspondence",
+                "operationId": "user correspondence",
+                "requestBody": {
+                    "description": "user correspondence",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "id": {
+                                        "type": "integer",
+                                        "format": "int",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/all-notifications": {
+            "get": {
+                "tags": [
+                    "Notifications"
+                ],
+                "summary": "User all notifications",
+                "description": "User all notifications",
+                "operationId": "Users all notifications",
+                "requestBody": {
+                    "description": "User all notifications",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User all notifications",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/viewed-notification": {
+            "post": {
+                "tags": [
+                    "Notifications"
+                ],
+                "summary": "User viewed Comments",
+                "description": "User viewed Comments",
+                "operationId": "Users viewed Comments",
+                "requestBody": {
+                    "description": "User viewed Comments",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "notification_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User viewed Comments",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/comment": {
+            "post": {
+                "tags": [
+                    "Comments"
+                ],
+                "summary": "User Create Comments",
+                "description": "User Create Comments",
+                "operationId": "Users Create Comments",
+                "requestBody": {
+                    "description": "User Create Comments",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "comment": {
+                                        "type": "string",
+                                        "format": "text",
+                                        "example": "some comment"
+                                    },
+                                    "post_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User Create Comments",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/reply_viewed-notification": {
+            "post": {
+                "tags": [
+                    "Notifications"
+                ],
+                "summary": "User viewed Reply Comments",
+                "description": "User viewed Reply Comments",
+                "operationId": "Users viewed Reply Comments",
+                "requestBody": {
+                    "description": "User viewed Reply Comments",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "notification_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User viewed Reply Comments",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/comment-reply": {
+            "post": {
+                "tags": [
+                    "Comments"
+                ],
+                "summary": "User Create Comments Reply",
+                "description": "User Create Comments Reply",
+                "operationId": "User Create Comments Reply",
+                "requestBody": {
+                    "description": "User Create Comments",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "comment_reply": {
+                                        "type": "string",
+                                        "format": "text",
+                                        "example": "some comment"
+                                    },
+                                    "comment_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User Create Comments",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/send-family-request": {
+            "post": {
+                "tags": [
+                    "Family"
+                ],
+                "summary": "user send family request",
+                "description": "user send family request",
+                "operationId": "users send family request",
+                "requestBody": {
+                    "description": "user send family request",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "receiver_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user send family request",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/confirm-family-request": {
+            "post": {
+                "tags": [
+                    "Family"
+                ],
+                "summary": "user accepts family request",
+                "description": "user accepts family request",
+                "operationId": "users accepts family request",
+                "requestBody": {
+                    "description": "user accepts family request",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "sender_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user accepts family request",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/cancel-family-request": {
+            "post": {
+                "tags": [
+                    "Family"
+                ],
+                "summary": "user request canceled",
+                "description": "user request canceled",
+                "operationId": "users request canceled",
+                "requestBody": {
+                    "description": "user request canceled",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "sender_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user request canceled",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/delete-family-request": {
+            "post": {
+                "tags": [
+                    "Family"
+                ],
+                "summary": "user removed from family list",
+                "description": "user removed from family list",
+                "operationId": "user removed from family list",
+                "requestBody": {
+                    "description": "user removed from family list",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "sender_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user removed from family list",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/code-sending": {
+            "post": {
+                "tags": [
+                    "Forgot-password"
+                ],
+                "summary": "User Send Email",
+                "description": "User Send Email",
+                "operationId": "User Send Email",
+                "requestBody": {
+                    "description": "User Send Email",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "email": {
+                                        "type": "email",
+                                        "format": "email",
+                                        "example": "test@gmail.com"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/restore-password": {
+            "post": {
+                "tags": [
+                    "Forgot-password"
+                ],
+                "summary": "restore-password",
+                "description": "restore-password",
+                "operationId": "restore-password",
+                "requestBody": {
+                    "description": "Pass user credentials",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "random_int": {
+                                        "type": "integer",
+                                        "format": "integer",
+                                        "example": "551485"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/update-password": {
+            "post": {
+                "tags": [
+                    "Forgot-password"
+                ],
+                "summary": "update-password",
+                "description": "update-password",
+                "operationId": "update-password",
+                "requestBody": {
+                    "description": "Pass user credentials",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "user_id": {
+                                        "type": "integer",
+                                        "format": "integer",
+                                        "example": "3"
+                                    },
+                                    "password": {
+                                        "type": "password",
+                                        "format": "password",
+                                        "example": "1234"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/add-friends": {
+            "post": {
+                "tags": [
+                    "Friends"
+                ],
+                "summary": "User Send Request",
+                "description": "User Send Request",
+                "operationId": "Users Send Request",
+                "requestBody": {
+                    "description": "user sent a friend pressure request",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "receiver_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user sent a friend pressure request",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/confirm-request": {
+            "post": {
+                "tags": [
+                    "Friends"
+                ],
+                "summary": "user accepts friend request",
+                "description": "user accepts friend request",
+                "operationId": "user accepts friend request",
+                "requestBody": {
+                    "description": "user accepts friend request",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "sender_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user accepts friend request",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/cancel-request": {
+            "post": {
+                "tags": [
+                    "Friends"
+                ],
+                "summary": "user request canceled",
+                "description": "user request canceled",
+                "operationId": "user request canceled",
+                "requestBody": {
+                    "description": "user request canceled",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "sender_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user request canceled",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/delete-friend": {
+            "post": {
+                "tags": [
+                    "Friends"
+                ],
+                "summary": "user removed from friends list",
+                "description": "user removed from friends list",
+                "operationId": "user removed from friends list",
+                "requestBody": {
+                    "description": "user removed from friends list",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "sender_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user removed from friends list",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/friends-birth": {
+            "post": {
+                "tags": [
+                    "Friends"
+                ],
+                "summary": "get users birthday",
+                "description": "get users birthday",
+                "operationId": "get user birthday",
+                "requestBody": {
+                    "description": "get users birthday",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "get users birthday",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/create-group": {
+            "post": {
+                "tags": [
+                    "Groups"
+                ],
+                "summary": "Group created successfully",
+                "description": "Group created successfully",
+                "operationId": "Groups created successfully",
+                "requestBody": {
+                    "description": "Group created successfully",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "name": {
+                                        "type": "string",
+                                        "format": "text",
+                                        "example": "some"
+                                    },
+                                    "image": {
+                                        "type": "file",
+                                        "format": "file",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Group created successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/create-moderator": {
+            "post": {
+                "tags": [
+                    "Group Moderator"
+                ],
+                "summary": "Moderator created successfully",
+                "description": "Moderator created successfully",
+                "operationId": "Moderators created successfully",
+                "requestBody": {
+                    "description": "Moderator created successfully",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "receiver_id": {
+                                        "type": "integer",
+                                        "format": "integer",
+                                        "example": 1
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Moderator created successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/admin-update-posts": {
+            "post": {
+                "tags": [
+                    "Group Admin"
+                ],
+                "summary": "Admin updated successfully",
+                "description": "Admin updated successfully",
+                "operationId": "Admin updated successfully",
+                "requestBody": {
+                    "description": "Admins updated successfully",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "post_id": {
+                                        "type": "integer",
+                                        "format": "integer",
+                                        "example": 1
+                                    },
+                                    "description": {
+                                        "type": "string",
+                                        "format": "string",
+                                        "example": "some text"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Admin updated successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/admin-delete-posts": {
+            "post": {
+                "tags": [
+                    "Group Admin"
+                ],
+                "summary": "Post deleted successfully",
+                "description": "Post deleted successfully",
+                "operationId": "Post deleted successfully",
+                "requestBody": {
+                    "description": "Post deleted successfully",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "post_id": {
+                                        "type": "integer",
+                                        "format": "integer",
+                                        "example": 1
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Post deleted successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/moderator-update-posts": {
+            "post": {
+                "tags": [
+                    "Group Moderator"
+                ],
+                "summary": "Post updated successfully",
+                "description": "Post updated successfully",
+                "operationId": "Post updated successfully",
+                "requestBody": {
+                    "description": "Posts updated successfully",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "post_id": {
+                                        "type": "integer",
+                                        "format": "integer",
+                                        "example": 1
+                                    },
+                                    "description": {
+                                        "type": "string",
+                                        "format": "string",
+                                        "example": "some text"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Posts updated successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/moderator-delete-posts": {
+            "post": {
+                "tags": [
+                    "Group Moderator"
+                ],
+                "summary": "Postsss deleted successfully",
+                "description": "Postsss deleted successfully",
+                "operationId": "Postsss deleted successfully",
+                "requestBody": {
+                    "description": "Postss deleted successfully",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "post_id": {
+                                        "type": "integer",
+                                        "format": "integer",
+                                        "example": 1
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Postsss deleted successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/admin-delete-user": {
+            "get": {
+                "tags": [
+                    "Group Admin"
+                ],
+                "summary": "User deleted successfully",
+                "description": "User deleted successfully",
+                "operationId": "User deleted successfully",
+                "requestBody": {
+                    "description": "User deleted successfully",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "id": {
+                                        "type": "integer",
+                                        "format": "integer",
+                                        "example": 1
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User deleted successfully",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/update-group-name": {
+            "post": {
+                "tags": [
+                    "Group Admin"
+                ],
+                "summary": "group name successfully changed",
+                "description": "group name successfully changed",
+                "operationId": "group name successfully changed",
+                "requestBody": {
+                    "description": "group name successfully changed",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "id": {
+                                        "type": "integer",
+                                        "format": "integer",
+                                        "example": 1
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "group name successfully changed",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/delete-group": {
+            "get": {
+                "tags": [
+                    "Group Admin"
+                ],
+                "summary": "group successfully deleted",
+                "description": "group successfully deleted",
+                "operationId": "group successfully deleted",
+                "requestBody": {
+                    "description": "group successfully deleted",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "group successfully deleted",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/delete-moderator": {
+            "post": {
+                "tags": [
+                    "Group Admin"
+                ],
+                "summary": "moderator successfully deleted",
+                "description": "moderator successfully deleted",
+                "operationId": "moderator successfully deleted",
+                "requestBody": {
+                    "description": "moderator successfully deleted",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "moderator successfully deleted",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/group-data": {
+            "get": {
+                "tags": [
+                    "Groups Members"
+                ],
+                "summary": "Group members data",
+                "description": "Group members data",
+                "operationId": "Groups members data",
+                "requestBody": {
+                    "description": "Group members data",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "id": {
+                                        "type": "integer",
+                                        "format": "id",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Group members data",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/add-group": {
+            "post": {
+                "tags": [
+                    "Groups"
+                ],
+                "summary": "User Send Request",
+                "description": "User Send Request",
+                "operationId": "Userss Send Request",
+                "requestBody": {
+                    "description": "user sent a friend pressure request",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "receiver_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User Send Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/confirm-group-request": {
+            "post": {
+                "tags": [
+                    "Groups"
+                ],
+                "summary": "user accepts group request",
+                "description": "user accepts group request",
+                "operationId": "user accepts group request",
+                "requestBody": {
+                    "description": "user accepts group request",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "sender_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user accepts group request",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/cancel-group-request": {
+            "post": {
+                "tags": [
+                    "Groups"
+                ],
+                "summary": "user request canceled",
+                "description": "user request canceled",
+                "operationId": "userss request canceled",
+                "requestBody": {
+                    "description": "user request canceled",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "sender_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "user request canceled",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/leave-the-group": {
+            "get": {
+                "tags": [
+                    "Groups"
+                ],
+                "summary": "Leave Group ",
+                "description": "Leave Group",
+                "operationId": "Leave Group",
+                "requestBody": {
+                    "description": "Leave Group",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "receiver_id": {
+                                        "type": "integer",
+                                        "format": "id",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Leave Group",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/add-black-list": {
+            "post": {
+                "tags": [
+                    "Groups"
+                ],
+                "summary": "Black List ",
+                "description": "Black List",
+                "operationId": "Black Lists",
+                "requestBody": {
+                    "description": "Black List",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "user_id": {
+                                        "type": "integer",
+                                        "format": "id",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Black List",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/hidden-account": {
+            "post": {
+                "tags": [
+                    "Hide Account"
+                ],
+                "summary": "User Send password for hide account",
+                "description": "User Send password for hide account",
+                "operationId": "User SenD password for hide account",
+                "requestBody": {
+                    "description": "User Send password for hide account",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "password": {
+                                        "type": "password",
+                                        "format": "password",
+                                        "example": "123456"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/users-delete/id": {
+            "delete": {
+                "tags": [
+                    "Delete Account"
+                ],
+                "summary": "User Send password for delete account",
+                "description": "User Send password for delete account",
+                "operationId": "User SenD password for delete account",
+                "requestBody": {
+                    "description": "User Send password for hide account",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "password": {
+                                        "type": "password",
+                                        "format": "password",
+                                        "example": "123456"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/login": {
+            "post": {
+                "tags": [
+                    "Login"
+                ],
+                "summary": "User Login",
+                "description": "User Login here",
+                "operationId": "Login",
+                "requestBody": {
+                    "description": "User Login here",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "email",
+                                    "password",
+                                    "number"
+                                ],
+                                "properties": {
+                                    "email": {
+                                        "type": "email"
+                                    },
+                                    "password": {
+                                        "type": "password"
+                                    },
+                                    "number": {
+                                        "type": "integer"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User Login here",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/verify": {
+            "post": {
+                "tags": [
+                    "Verify"
+                ],
+                "summary": "User Verify",
+                "description": "User Verify here",
+                "operationId": "Verify",
+                "requestBody": {
+                    "description": "User Verify here",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "verified_code"
+                                ],
+                                "properties": {
+                                    "verified_code": {
+                                        "type": "integer"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User Verify here",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/users-media": {
+            "get": {
+                "tags": [
+                    "Media"
+                ],
+                "summary": "User photo and video",
+                "description": "User photo and video",
+                "operationId": "User photo and video",
+                "requestBody": {
+                    "description": "User photo and video",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User photo and video",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/post": {
+            "post": {
+                "tags": [
+                    "Post"
+                ],
+                "summary": "User Create Posts",
+                "description": "User Create Posts",
+                "operationId": "Users Create Posts",
+                "requestBody": {
+                    "description": "Users Create Posts",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "description": {
+                                        "type": "string",
+                                        "format": "text",
+                                        "example": "some description"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/post-likes": {
+            "post": {
+                "tags": [
+                    "Post Likes"
+                ],
+                "summary": "User Likes Posts",
+                "description": "User Likes Posts",
+                "operationId": "Users Likes Posts",
+                "requestBody": {
+                    "description": "Users Likes Posts",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "post_id": {
+                                        "type": "integer",
+                                        "format": "number",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/comment-likes": {
+            "post": {
+                "tags": [
+                    "Comments Likes"
+                ],
+                "summary": "User Comments like",
+                "description": "User Comments like",
+                "operationId": "Users Comments like",
+                "requestBody": {
+                    "description": "Users Comments like",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "comment_id": {
+                                        "type": "integer",
+                                        "format": "number",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/comment-reply-likes": {
+            "post": {
+                "tags": [
+                    "Comments Reply Likes"
+                ],
+                "summary": "User Comments reply like",
+                "description": "Users Comments reply like",
+                "operationId": "User Comments reply like",
+                "requestBody": {
+                    "description": "Users Comments reply like",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "comment_id": {
+                                        "type": "integer",
+                                        "format": "number",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/reply-answer-likes": {
+            "post": {
+                "tags": [
+                    "Reply Answer like"
+                ],
+                "summary": "User reply answer like",
+                "description": "User reply answer like",
+                "operationId": "Users reply answer like",
+                "requestBody": {
+                    "description": "User reply answer like",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "comment_id": {
+                                        "type": "integer",
+                                        "format": "number",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/change-number": {
+            "post": {
+                "tags": [
+                    "Change Number"
+                ],
+                "summary": "User Send Number for change",
+                "description": "User Send Number for change",
+                "operationId": "User Send Number for change",
+                "requestBody": {
+                    "description": "User Send Number for change",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "number": {
+                                        "type": "integer",
+                                        "format": "number",
+                                        "example": "1234567\n     * "
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/update-number": {
+            "post": {
+                "tags": [
+                    "Change Number"
+                ],
+                "summary": "User Send code for change",
+                "description": "User Send code for change",
+                "operationId": "User Send code ",
+                "requestBody": {
+                    "description": "User Send code for change",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "required"
+                                ],
+                                "properties": {
+                                    "random_int": {
+                                        "type": "integer",
+                                        "format": "int",
+                                        "example": "123456"
+                                    },
+                                    "user_id": {
+                                        "type": "integer",
+                                        "format": "int",
+                                        "example": "8"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Wrong credentials response",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/registration": {
+            "post": {
+                "tags": [
+                    "Register"
+                ],
+                "summary": "User Register",
+                "description": "User Register here",
+                "operationId": "Register",
+                "requestBody": {
+                    "description": "User Register here",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "name",
+                                    "email",
+                                    "password",
+                                    "password_confirmation",
+                                    "surname",
+                                    "patronymic",
+                                    "city",
+                                    "username",
+                                    "date_of_birth",
+                                    "number"
+                                ],
+                                "properties": {
+                                    "name": {
+                                        "type": "text"
+                                    },
+                                    "email": {
+                                        "type": "email"
+                                    },
+                                    "password": {
+                                        "type": "password"
+                                    },
+                                    "password_confirmation": {
+                                        "type": "password"
+                                    },
+                                    "surname": {
+                                        "type": "text"
+                                    },
+                                    "patronymic": {
+                                        "type": "text"
+                                    },
+                                    "city": {
+                                        "type": "text"
+                                    },
+                                    "username": {
+                                        "type": "text"
+                                    },
+                                    "date_of_birth": {
+                                        "type": "string",
+                                        "format": "date-time"
+                                    },
+                                    "number": {
+                                        "type": "integer"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User Register here",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/replyanswer_viewed-notification": {
+            "post": {
+                "tags": [
+                    "Notifications"
+                ],
+                "summary": "User viewed Reply Answer Comments",
+                "description": "User viewed Reply Answer Comments",
+                "operationId": "Users viewed Reply Answer Comments",
+                "requestBody": {
+                    "description": "Users viewed Reply Answer Comments",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "notification_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User viewed Reply Answer Comments",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "api/comment-reply-answer": {
+            "post": {
+                "tags": [
+                    "Comments"
+                ],
+                "summary": "User Create Comments Replys",
+                "description": "User Create Comments Replys",
+                "operationId": "User Create Comments Replys",
+                "requestBody": {
+                    "description": "User Create Comments Reply",
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "required": [
+                                    "true"
+                                ],
+                                "properties": {
+                                    "reply": {
+                                        "type": "string",
+                                        "format": "text",
+                                        "example": "some comment"
+                                    },
+                                    "reply_id": {
+                                        "type": "integer",
+                                        "format": "text",
+                                        "example": "1"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User Create Comments",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

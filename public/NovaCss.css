@@ -1,0 +1,15 @@
+.overflow-hidden::-webkit-scrollbar{
+    width: 0% !important;
+}
+.max-h-::-webkit-scrollbar{
+    width: 0% !important;
+}
+.overflow-y-auto::-webkit-scrollbar{
+    width: 0% !important;
+}
+.uppercase{ display: none !important;}
+
+button[dusk='update-and-continue-editing-button'], button[dusk='create-and-add-another-button'] {
+    display: none;
+}
+
